@@ -1,0 +1,14 @@
+conf = require 'nconf'
+
+conf.defaults
+
+  twitter:
+    consumer_key        : ""
+    consumer_secret     :  ""
+    access_token        : ""
+    access_token_secret : ""
+
+  mongo:
+    connection: "mongodb://127.0.0.1:27017/twitter"
+
+module.exports = conf

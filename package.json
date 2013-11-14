@@ -1,0 +1,19 @@
+{
+  "name": "twitter-streamer",
+  "version": "0.0.1",
+  "description": "twitter API testing",
+  "main": "app.coffee",
+  "scripts": {
+    "start": "coffee app.coffee"
+  },
+  "author": "Chaitanya Surapaneni <chaitanya@surapaneni.in>",
+  "license": "MIT",
+  "dependencies": {
+    "twit": "~1.1.11",
+    "nconf": "~0.6.8",
+    "mongojs": "~0.9.6",
+    "underscore": "~1.5.2",
+    "socket.io": "~0.9.16",
+    "async": "~0.2.9"
+  }
+}
