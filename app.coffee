@@ -42,7 +42,7 @@ __baseHtml = """
   <script type="text/javascript" src="/socket.io/socket.io.js"></script>
   <script>
   $(document).on('ready', function(){
-    var socket = io.connect("//localhost:8080");
+    var socket = io.connect("http://localhost:8080");
     socket.on('tweets', function(tweets) {
       var li = "";
       for(var i = 0; i < tweets.length; i++) {
